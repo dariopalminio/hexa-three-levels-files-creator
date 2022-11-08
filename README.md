@@ -28,6 +28,9 @@ The generated files will be the following:
 
 # Log
 
+Example creating User entity files:
+
+```
 ? What is the entity name? User
 ? What attribute name do you want to include? username
 ? What is the type of the attribute? string
@@ -50,4 +53,4 @@ CREATE File C:\Users\Daro\Code\my-project\src\domain\User.service.ts
 CREATE File C:\Users\Daro\Code\my-project\src\domain\User.entity.ts
 CREATE File C:\Users\Daro\Code\my-project\src\infrastructure\User.schema.ts
 CREATE File C:\Users\Daro\Code\my-project\src\infrastructure\User.repository.ts
-
+```
