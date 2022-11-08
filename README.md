@@ -1,7 +1,7 @@
 ## Hexa-Three-Levels Files Creator
 
 
-This project is used to generate all the necessary files to implement a CRUD on an indicated entity called <nameEntity>.
+This project is used to generate all the necessary files to implement a CRUD on an indicated entity called 'nameEntity', followinf hexagonal architecture and NestJs (controllers).
 
 The generated files will be the following:
 ```
