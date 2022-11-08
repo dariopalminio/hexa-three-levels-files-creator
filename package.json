@@ -1,0 +1,18 @@
+{
+  "name": "hexa-three-levels-files-creator",
+  "version": "1.0.0",
+  "description": "Create a set of files, following the hexa-three-levels architecture, based on an entity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dario Palminio",
+  "license": "MIT",
+  "bin": {
+    "npm-htl-fcreate": "./index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  },
+  "type": "module"
+}
