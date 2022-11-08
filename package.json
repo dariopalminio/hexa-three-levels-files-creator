@@ -2,6 +2,17 @@
   "name": "hexa-three-levels-files-creator",
   "version": "1.0.0",
   "description": "Create a set of files, following the hexa-three-levels architecture, based on an entity",
+  "keywords": [
+    "hexagonal architecture",
+    "hexagonal back-end", 
+    "hexagonal for nestjs", 
+    "hexagonal",
+    "architecture",
+    "clean code in back-end",
+    "mongo mapper",
+    "mongo ORM",
+    "file creator"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +23,7 @@
     "npm-htl-fcreate": "./index.js"
   },
   "dependencies": {
+    "hexa-three-levels-files-creator": "^1.0.0",
     "inquirer": "^9.1.4"
   },
   "type": "module"
