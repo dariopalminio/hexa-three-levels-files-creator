@@ -4,7 +4,7 @@
 This project is used to generate all the necessary files to implement a CRUD on an indicated entity called <nameEntity>.
 
 The generated files will be the following:
-
+```
 <nameEntity>.dto.ts
 <nameEntity>.controller.ts
 <nameEntity>.service.interface.ts
@@ -12,7 +12,7 @@ The generated files will be the following:
 <nameEntity>.entity.ts
 <nameEntity>.repository.ts
 <nameEntity>.schema.ts
-
+```
 # Requirements
 
 * Node 16.17.1
