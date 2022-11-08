@@ -13,8 +13,11 @@ The generated files will be the following:
 <nameEntity>.repository.ts
 <nameEntity>.schema.ts
 ```
+The generated files use the library called: 'hexa-three-levels'.
+
 # Requirements
 
+To build the library was used:
 * Node 16.17.1
 * NPM 8.19.2
 
@@ -24,7 +27,15 @@ The generated files will be the following:
 
 # Usage
 
-```npm-htl-fcreate```
+```
+$ npm i -g @nestjs/cli
+$ nest new my-project
+$ cd my-project
+$ npm i hexa-three-levels
+$ cd src
+$ npm-htl-fcreate
+```
+
 
 # Log
 
