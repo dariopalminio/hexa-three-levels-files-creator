@@ -23,7 +23,6 @@
     "npm-htl-fcreate": "./index.js"
   },
   "dependencies": {
-    "hexa-three-levels-files-creator": "^1.0.0",
     "inquirer": "^9.1.4"
   },
   "type": "module"
