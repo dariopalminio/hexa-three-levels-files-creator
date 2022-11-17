@@ -1,6 +1,6 @@
 {
   "name": "hexa-three-levels-files-creator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create a set of files, following the hexa-three-levels architecture, based on an entity",
   "keywords": [
     "hexagonal architecture",
