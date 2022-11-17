@@ -10,7 +10,7 @@ export const generateContentSchema = (entityName, attributesArray) => {
     const content = `
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
-import { I${entityName} } from './${entityName}.entity';
+import { I${entityName} } from './../domain/${entityName}.entity';
     
 export type ${entityName}Document = ${entityName} & Document;
     

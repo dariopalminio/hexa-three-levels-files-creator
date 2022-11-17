@@ -8,7 +8,7 @@ export const generateContentDTO = (entityName, attributesArray) => {
     }
 
     const content = `
-import { I${entityName} } from './I${entityName}.entity';
+import { I${entityName} } from './../domain/I${entityName}.entity';
 
 export class ${entityName}DTO  implements I${entityName}{
 

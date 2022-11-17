@@ -4,9 +4,9 @@ export const generateContentController = (entityName) => {
       const content = `
       import { Controller, Get, Res, Post, Delete, Put, Body, Param, Query, Inject, HttpStatus, NotFoundException, InternalServerErrorException, UseGuards, BadRequestException, HttpException } from '@nestjs/common';
       import { IAppErrorHandler, PaginatedResult } from "hexa-three-levels";
-      import { I${entityName}Service } from './${entityName}.service.interface';
+      import { I${entityName}Service } from './../domain/${entityName}.service.interface';
       import { ${entityName}DTO } from './${entityName}.dto';
-      import { ${entityName} } from './${entityName}.entity';
+      import { ${entityName} } from './../domain/${entityName}.entity';
       
       @Controller('${entityName}')
       export class ${entityName}Controller {
