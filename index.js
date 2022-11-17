@@ -10,6 +10,7 @@ import { generateContentRepository } from './templates/repository.js';
 import { generateContentIService } from './templates/service.interface.js';
 import { generateContentService } from './templates/service.js';
 import { generateContentController } from './templates/controller.js';
+import { generateContentReadme } from './templates/readme.js';
 
 const RegexUpperCamelCase = /^([A-Z][a-z0-9]+)((\d)|([A-Z0-9][a-z0-9]+))*([A-Z])?/;
 
@@ -91,6 +92,7 @@ const main = async () => {
     const contensIService = generateContentIService(entityName);
     const contensService = generateContentService(entityName);
     const contensController = generateContentController(entityName);
+    const contensReadme = generateContentReadme(entityName);
 
     createDirIfNotExists('application');
     createDirIfNotExists('domain');
@@ -103,6 +105,7 @@ const main = async () => {
     createFilesContent('domain', `${entityName}.entity.ts`, contensEntity);
     createFilesContent('infrastructure', `${entityName}.schema.ts`, contentsSchema);
     createFilesContent('infrastructure', `${entityName}.repository.ts`, contensRepository);
+    createFilesContent('', `readme.md`, contensReadme);
 };
 
 main();

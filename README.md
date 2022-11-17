@@ -23,9 +23,48 @@ To build the library was used:
 
 # Install
 
+* Script Local
+
+You don't need to install, just download the repository and run the script
+
+* GLOBAL
+
 ```npm install -g hexa-three-levels-files-creator```
 
+* LOCAL
+
+```npm install hexa-three-levels-files-creator```
+
 # Usage
+
+
+* Script Local:
+
+You don't need to install, just download the repository and run the script and you can use by directly running the script
+
+```
+node index.js 
+```
+
+* Global
+
+Ejecutamos **npm-htl-fcreate**
+
+* Local
+Add in package.json
+
+```
+"scripts": {
+    "npm-htl-fcreate": "./node_modules/.bin/npm-htl-fcreate"
+},
+```
+
+Executing:
+```
+npm run npm-htl-fcreate
+```
+
+* With hexa-three-levels
 
 ```
 $ npm i -g @nestjs/cli

@@ -8,7 +8,7 @@ export const generateContentController = (entityName) => {
       import { ${entityName}DTO } from './${entityName}.dto';
       import { ${entityName} } from './../domain/${entityName}.entity';
       
-      @Controller('${entityName}')
+      @Controller('${entityName.toLowerCase()}')
       export class ${entityName}Controller {
       
           appErrorHandler: IAppErrorHandler<HttpException>;
