@@ -1,4 +1,7 @@
-## Hexa-Three-Levels Files Creator
+# hexa-three-levels-files-creator
+> ⚠️ **Disclaimer**: This is a learning exercise and proof of concept. Not for production use. [read more in Disclaimer]
+ 
+ ## Hexa-Three-Levels Files Creator
 
 
 This project is used to generate all the necessary files to implement a CRUD on an indicated entity called 'nameEntity', followinf hexagonal architecture and NestJs (controllers).
@@ -104,3 +107,14 @@ CREATE File C:\Users\Daro\Code\my-project\src\domain\User.entity.ts
 CREATE File C:\Users\Daro\Code\my-project\src\infrastructure\User.schema.ts
 CREATE File C:\Users\Daro\Code\my-project\src\infrastructure\User.repository.ts
 ```
+
+## 📌 Disclaimer (English)
+
+> **⚠️ Important Notice**  
+> This library is **purely a learning exercise and a proof of concept**. It is **not intended nor recommended** for use in production environments or real-world projects.
+>
+> Its purpose is to illustrate a possible implementation of Hexagonal Architecture and DDD principles, but it **does not constitute a mature, maintained, or secure solution** for production-grade applications.
+>
+> I encourage you to **take the lessons and patterns** shown here and **apply them directly in your own backend**, building a codebase that is **100% yours, flexible, maintainable, and tailored to your specific needs**. Architecture is not bought on npm; it is designed and cultivated.
+
+---
